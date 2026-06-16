@@ -11,7 +11,7 @@ TODAY = pd.Timestamp.now().normalize()
 TRAIN_START = pd.Timestamp("2014-01-01")
 MAX_TRAIN = 10000
 HOME_ADV = 65.0
-DEVICE = "cpu"
+DEVICE = "auto"
 DATA = "results.csv"
 RAW_URL = "https://raw.githubusercontent.com/martj42/international_results/master/results.csv"
 
